@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+/*
+.header-principal{} 
+*/
+
+
+/*conteineiner de navegação do site*/
+.container{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+    color: rgb(248, 248, 255);
+}
+
+/*
+.title-h1{}
+*/
+
+/*links de navegação do site*/
+.nav{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: normal;
+    padding: 10px;
+    border-radius:10%;
+}
+.nav:hover{
+    border: solid 1px white;
+    transition:ease all .3s;
+}
+
+
+/*.container-carousel{}
+
+.navegacao{}
+
+
+/*Parte central do meio Capa*/
+*/
+
+/*Imagem da capa principal*/
+.capa-principal{
+    background-image:url(/GameSlash/img/capa-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 725px;
+    display: flex;
+    align-items: center;
+    background-color: opacity 0.1;
+    
+}
+/*caixa da imagem do jogo*/
+figure{
+    display: flex;
+    align-items: end;
+    transition: ease all .3s; 
+    margin-left: 215px;
+     
+}
+/*titilo do jogo dentro da capa*/
+.title-h3{
+        font-size: 25px;
+    margin: 0px 0px 25px 25px;
+    text-align: left;
+    color: white;
+}
+/*Descrição do jogo*/
+.descricao{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: white;
+    margin: 0 0px 1px 18px;
+}
+
+
+/*img do jogo dentro da capa*/
+.img-jogo{
+    height: 530px;
+    width: 407px;
+    opacity: 122%;
+    display: flex;
+    justify-items: center; 
+    cursor: pointer;
+
+}
+.container-carousel{
+    background-color: aquamarine;
+    margin-top: 7px;
+    
+}
+.item ,img{
+    height: 600px;
+    width: 600px;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+
+
+
